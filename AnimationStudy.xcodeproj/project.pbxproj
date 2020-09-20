@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26785059202D3BEB4E5ECEE4 /* Pods_AnimationStudy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93FA7FD5C7BD30A6ADC9B7EB /* Pods_AnimationStudy.framework */; };
+		5E33F8C925174AF600E713FA /* AnimationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E33F8C825174AF600E713FA /* AnimationData.swift */; };
 		5E4733552514E56200C996D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4733542514E56200C996D0 /* AppDelegate.swift */; };
 		5E4733572514E56200C996D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4733562514E56200C996D0 /* SceneDelegate.swift */; };
 		5E4733592514E56200C996D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4733582514E56200C996D0 /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19628AE2FAFBEFA556A266F1 /* Pods-AnimationStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationStudy.debug.xcconfig"; path = "Target Support Files/Pods-AnimationStudy/Pods-AnimationStudy.debug.xcconfig"; sourceTree = "<group>"; };
+		5E33F8C825174AF600E713FA /* AnimationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationData.swift; sourceTree = "<group>"; };
 		5E4733512514E56200C996D0 /* AnimationStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E4733542514E56200C996D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E4733562514E56200C996D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		5E4733762514E56D00C996D0 /* AnimationStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationStudyUITests.swift; sourceTree = "<group>"; };
 		5E4733782514E56D00C996D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E47338A2514EDF300C996D0 /* Extension + UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIButton.swift"; sourceTree = "<group>"; };
+		93FA7FD5C7BD30A6ADC9B7EB /* Pods_AnimationStudy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimationStudy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9606EEE8CA613CA62084E0CA /* Pods-AnimationStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationStudy.release.xcconfig"; path = "Target Support Files/Pods-AnimationStudy/Pods-AnimationStudy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26785059202D3BEB4E5ECEE4 /* Pods_AnimationStudy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +85,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10F50941803AB77DF59E9716 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93FA7FD5C7BD30A6ADC9B7EB /* Pods_AnimationStudy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D01D8A64E943CB194729C19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19628AE2FAFBEFA556A266F1 /* Pods-AnimationStudy.debug.xcconfig */,
+				9606EEE8CA613CA62084E0CA /* Pods-AnimationStudy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5E33F8B6251740E200E713FA /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				5E47335F2514E56D00C996D0 /* LaunchScreen.storyboard */,
+				5E47335A2514E56200C996D0 /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		5E33F8B72517410600E713FA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E4733582514E56200C996D0 /* ViewController.swift */,
+				5E47338A2514EDF300C996D0 /* Extension + UIButton.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5E33F8C0251741DC00E713FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E33F8C825174AF600E713FA /* AnimationData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		5E4733482514E56200C996D0 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +135,8 @@
 				5E47336A2514E56D00C996D0 /* AnimationStudyTests */,
 				5E4733752514E56D00C996D0 /* AnimationStudyUITests */,
 				5E4733522514E56200C996D0 /* Products */,
+				2D01D8A64E943CB194729C19 /* Pods */,
+				10F50941803AB77DF59E9716 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +155,10 @@
 			children = (
 				5E4733542514E56200C996D0 /* AppDelegate.swift */,
 				5E4733562514E56200C996D0 /* SceneDelegate.swift */,
-				5E4733582514E56200C996D0 /* ViewController.swift */,
-				5E47338A2514EDF300C996D0 /* Extension + UIButton.swift */,
-				5E47335A2514E56200C996D0 /* Main.storyboard */,
+				5E33F8C0251741DC00E713FA /* Model */,
+				5E33F8B72517410600E713FA /* Controllers */,
+				5E33F8B6251740E200E713FA /* StoryBoards */,
 				5E47335D2514E56D00C996D0 /* Assets.xcassets */,
-				5E47335F2514E56D00C996D0 /* LaunchScreen.storyboard */,
 				5E4733622514E56D00C996D0 /* Info.plist */,
 			);
 			path = AnimationStudy;
@@ -138,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E47337B2514E56D00C996D0 /* Build configuration list for PBXNativeTarget "AnimationStudy" */;
 			buildPhases = (
+				1A2226ED6FCB41CE12AC90F0 /* [CP] Check Pods Manifest.lock */,
 				5E47334D2514E56200C996D0 /* Sources */,
 				5E47334E2514E56200C996D0 /* Frameworks */,
 				5E47334F2514E56200C996D0 /* Resources */,
+				D8880CDABDE6EFFD17E61F17 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -201,11 +254,9 @@
 					};
 					5E4733662514E56D00C996D0 = {
 						CreatedOnToolsVersion = 12.0;
-						TestTargetID = 5E4733502514E56200C996D0;
 					};
 					5E4733712514E56D00C996D0 = {
 						CreatedOnToolsVersion = 12.0;
-						TestTargetID = 5E4733502514E56200C996D0;
 					};
 				};
 			};
@@ -256,12 +307,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A2226ED6FCB41CE12AC90F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimationStudy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8880CDABDE6EFFD17E61F17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimationStudy/Pods-AnimationStudy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimationStudy/Pods-AnimationStudy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnimationStudy/Pods-AnimationStudy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5E47334D2514E56200C996D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5E4733592514E56200C996D0 /* ViewController.swift in Sources */,
+				5E33F8C925174AF600E713FA /* AnimationData.swift in Sources */,
 				5E4733552514E56200C996D0 /* AppDelegate.swift in Sources */,
 				5E4733572514E56200C996D0 /* SceneDelegate.swift in Sources */,
 				5E47338B2514EDF300C996D0 /* Extension + UIButton.swift in Sources */,
@@ -437,6 +531,7 @@
 		};
 		5E47337C2514E56D00C996D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19628AE2FAFBEFA556A266F1 /* Pods-AnimationStudy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -457,6 +552,7 @@
 		};
 		5E47337D2514E56D00C996D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9606EEE8CA613CA62084E0CA /* Pods-AnimationStudy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,7 +575,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39ASSNB2G6;
 				INFOPLIST_FILE = AnimationStudyTests/Info.plist;
@@ -493,7 +588,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationStudy.app/AnimationStudy";
 			};
 			name = Debug;
 		};
@@ -501,7 +595,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39ASSNB2G6;
 				INFOPLIST_FILE = AnimationStudyTests/Info.plist;
@@ -515,7 +608,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationStudy.app/AnimationStudy";
 			};
 			name = Release;
 		};
@@ -533,9 +625,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ru.yolloarts.AnimationStudyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AnimationStudy;
 			};
 			name = Debug;
 		};
@@ -553,9 +645,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ru.yolloarts.AnimationStudyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AnimationStudy;
 			};
 			name = Release;
 		};
